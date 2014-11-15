@@ -13,7 +13,8 @@
 --------------------------*/
 
 html{
-	background:url('/img/bg_tile.jpg') #161718;
+	/* background:url('/img/bg_tile.jpg') #161718; */
+	background:url(../img/tech_pill.jpg) no-repeat center center;
 }
 
 body{
