@@ -67,7 +67,7 @@
       </div> -->
 	 <div class="jumbotron">
       <div class = "row ">
-        <div class= "col-md-3" id="others">
+        <div class= "col-md-3" >
           <a href= "#"><img src = "Medicine/DiaBeta diabetic pill.JPG" class="img-responsive img-rounded" /></a>
           <p class = "text-center">DiaBeta diabetic</p>
           <div class="progress">
@@ -75,7 +75,7 @@
             </div>
           </div>
         </div>
-         <div class= "col-md-3" id="others">
+         <div class= "col-md-3" >
           <a href= "#"><img src = "Medicine/Diuril blood pressure pill.JPG" class="img-responsive img-rounded"/></a>
           <p class = "text-center">Diuril blood pressure</p>
           <div class="progress">
@@ -103,7 +103,7 @@
 
        <div class = "row">
         
-         <div class= "col-md-3">
+         <div class= "col-md-3" id="others">
           <a href= "#"><img src = "Medicine/Marplan antidepressant pill.JPG" id = "morning-pills" class = "img-responsive img-rounded "/></a>
           <p class = "text-center">Marplan antidepressant</p>
           <div class="progress">
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
-         <div class= "col-md-3">
+         <div class= "col-md-3" id="others">
           <a href= "#"><img src = "Medicine/Nardil antidepressant pill.JPG" id = "morning-pills" class="img-responsive img-rounded"/></a>
           <p class = "text-center">Nardil antidepressant</p>
           <div class="progress">
@@ -127,10 +127,9 @@
             </div>
           </div>
         </div>
-        <div class= "col-md-3">
+        <div class= "col-md-3" id="others">
           <a href= "#"><img src="Medicine/add.jpg" class="img-responsive img-rounded"/></a>
           <p class = "text-center">Add More Meds</p>
-          
         </div>
       </div>
       </div>
@@ -147,8 +146,7 @@
   // Let's define our first command. First the text we expect, and then the function it should call
       var commands = {
     'show my morning pills': function() {
-       $('#morning-pills').animate({bottom: '-100px'});
-       $('#others').animate({height: "0px"});
+       $('#others').hide();
       }
     };
 
