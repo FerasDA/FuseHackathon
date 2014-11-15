@@ -25,10 +25,10 @@ BODY STYLING
 }
 
 body {
-	background:url(../img/tech_pill.jpg) no-repeat center center;
+	background: url(../img/tech_pill.jpg) no-repeat center center;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight:300;
-	text-align: left;
+	font-weight: 300;
+	text-align: center;
 	text-decoration: none;
 	height: 500px;
 }
