@@ -14,7 +14,7 @@
         <link href="css/bootstrap-theme.min.css" rel="stylesheet">
         
         <!-- login styles -->
-		<link href="css/login_style.css" rel="stylesheet" />    
+		<link href="css/login.css" rel="stylesheet" />    
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -32,9 +32,34 @@
     </head>
     
     <body>
+    	<div id="wrapper">
+
+        <form name="login-form" class="login-form" action="profile.html" method="post">
+        
+            <div class="header">
+            <h1>MedTool</h1>
+            <span>Login with your credentials below or click on register to sign up.</span>
+            </div>
+        
+            <div class="content">
+            <input name="username" type="text" class="input username" placeholder="Username" />
+            <div class="user-icon"></div>
+            <input name="password" type="password" class="input password" placeholder="Password" />
+            <div class="pass-icon"></div>		
+            </div>
     
-    	<div id="formContainer">
-			<form id="login" method="post" action="mymeds.html">
+            <div class="footer">
+            <input type="submit" name="submit" value="Login" class="button" />
+            <input type="submit" name="submit" value="Register" class="register" />
+            </div>
+        
+        </form>
+    
+    </div>
+    <div class="gradient"></div>
+
+   <!-- 	<div id="formContainer">
+			<form id="login" method="post" action="profile.html">
 				<a href="#" id="flipToRecover" class="flipLink">Forgot?</a>
 				<input type="text" name="loginEmail" id="loginEmail" value="Email" />
 				<input type="password" name="loginPass" id="loginPass" value="pass" />
@@ -46,8 +71,9 @@
 				<input type="submit" name="submit" value="Recover" />
 			</form>
 		</div>
-        
+        <script src="js/login_script.js"></script>
+        -->
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="js/login_script.js"></script>
+		
     </body>
 </html>
